@@ -1,0 +1,5 @@
+问题发生：
+HTTP Status 500 - Could not resolve view with name 'index' in servlet with name 'dispatcher'
+原因：
+velocity.properties中的T E M P L A T E  L O A D E R S部分配置需要注释掉就可以正常了。
+（file.resource.loader.path = .）注释就可以了。

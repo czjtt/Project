@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+       <!-- 加载所有service bean-->
+       <context:component-scan base-package="org.gfg">
+              <context:include-filter type="regex" expression=".portal.*"/>
+              <!--<context:include-filter type="regex" expression=".spring.mvc.*"/>-->
+              <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+       </context:component-scan>
+
+       <!-- 问题需要解决。-->
+       <!-- spring-context.xml中的property-placeholder不能加载.properties文件-->
+       <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+              <property name="locations">
+                     <list>
+                            <value>classpath:config/db.properties</value>
+                     </list>
+              </property>
+       </bean>
+
+       <!-- proxool-->
+       <bean id="dataSource_proxool" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+              <!-- 别名 -->
+              <property name="alias" value="proxoolDataSource"/>
+              <property name="driver" value="${connection.driver_class}"/>
+              <property name="driverUrl" value="${connection.url}"/>
+              <property name="user" value="${connection.username}"/>
+              <property name="password" value="${connection.password}"/>
+              <!-- 最大连接数 （默认5个） -->
+              <property name="maximumConnectionCount" value="${proxool.maximum.connection.count}"/>
+              <!-- 最小连接数 （默认2个） -->
+              <property name="minimumConnectionCount" value="${proxool.minimum.connection.count}"/>
+              <property name="statistics" value="${proxool.statistics}"/>
+              <!-- 同时最大连接数 -->
+              <property name="simultaneousBuildThrottle" value="${proxool.simultaneous.build.throttle}"/>
+        </bean>
+
+       <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+              <property name="dataSource" ref="dataSource_proxool"/>
+              <property name="packagesToScan">
+                     <list>
+                            <value>org.gfg.portal.entity</value>
+                            <!--<value>org.gfg.portal.umas.server.model</value>-->
+                     </list>
+              </property>
+
+              <property name="hibernateProperties">
+                     <props>
+                            <prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</prop>
+                            <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                            <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                            <prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+                            <prop key="hibernate.query.substitutions">${hibernate.query.substitutions}</prop>
+                            <prop key="hibernate.default_batch_fetch_size">${hibernate.default_batch_fetch_size}</prop>
+                            <prop key="hibernate.max_fetch_depth">${hibernate.max_fetch_depth}</prop>
+                            <prop key="hibernate.generate_statistics">${hibernate.generate_statistics}</prop>
+                            <prop key="hibernate.bytecode.use_reflection_optimizer">${hibernate.bytecode.use_reflection_optimizer}</prop>
+                            
+                            <prop key="hibernate.cache.use_second_level_cache">${hibernate.cache.use_second_level_cache}</prop>
+                            <prop key="hibernate.cache.use_query_cache">${hibernate.cache.use_query_cache}</prop>
+                            <prop key="hibernate.cache.region.factory_class">${hibernate.cache.region.factory_class}</prop>
+                            <prop key="net.sf.ehcache.configurationResourceName">${net.sf.ehcache.configurationResourceName}</prop>
+                            <prop key="hibernate.cache.use_structured_entries">${hibernate.cache.use_structured_entries}</prop>
+                            <!--<prop key="hibernate.current_session_context_class">${hibernate.current_session_context_class}</prop>-->
+                     </props>
+              </property>
+       </bean>
+
+       <!-- 事务管理 -->
+       <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+              <property name="sessionFactory" ref="sessionFactory"/>
+       </bean>
+
+       <!-- 将事务管理加到标有@Transactional的类或者方法上-->
+       <!-- proxy-target-class="true" -->
+       <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
+
+</beans>

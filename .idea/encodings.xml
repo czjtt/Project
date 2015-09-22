@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/action/HelloController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/action/testAction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/config/InstantiationTracingBeanPostProcessor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/BaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/impl/BaseDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/impl/UserDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/service/impl/testServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/springapp/mvc/HelloController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/config/dispatch_view_problem.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/template/js/test.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/databaseTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

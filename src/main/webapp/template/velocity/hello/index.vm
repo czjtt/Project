@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1>${message}</h1>
+req.getLocale:<span>${req.getLocale()}</span>
+<br/>
+req.getWebApplicationContext():<span>${req.getWebApplicationContext()}</span>
+<br/>
+req.getContextPath():<span>${req.getContextPath()}</span>
+<br/>
+req.getUrlPathHelper():${req.getUrlPathHelper()}
+</body>
+</html>

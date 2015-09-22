@@ -1,0 +1,7 @@
+hibernate4的getSession() 方法
+运行后报：Could not obtain transaction-synchronized Session for current thread
+
+可以看看以下：http://www.doc88.com/p-1357549975155.html
+大概思路为：basedao作为底层调用，在dao中继承basedao后，再调用basedao的反射方法进行操作。
+
+结果：显然不靠谱
