@@ -1,3 +1,8 @@
 it is the test txt.
 -second line .it's dev branch.
+<<<<<<< HEAD
 -third line.it's master branch.
+=======
+-third line .it's dev branch too.
+>>>>>>> dev
+-fourth line .it's merge master and dev branch.
