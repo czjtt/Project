@@ -6,6 +6,7 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
 /**
+ * 这个类用于在创建bean后输出bean的信息
  * Created by NS on 2015/9/15.
  */
 public class InstantiationTracingBeanPostProcessor implements BeanPostProcessor {
