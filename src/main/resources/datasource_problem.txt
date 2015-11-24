@@ -1,0 +1,22 @@
+1. hibernate4的getSession() 方法
+运行后报：Could not obtain transaction-synchronized Session for current thread
+
+可以看看以下：http://www.doc88.com/p-1357549975155.html
+大概思路为：basedao作为底层调用，在dao中继承basedao后，再调用basedao的反射方法进行操作。
+
+结果：显然不靠谱
+
+2. 问题：
+    GenericJDBCException: could not execute statement
+解决办法：
+    给那张表设定自增，填充零。
+个人理解：
+    由于初次建表时没有给id设定自增和默认值，数据库无法给其赋予初始id值，所以无法插入报错。
+
+3. 问题：
+    hibernate实体为什么要提供一个无参构造方法
+解释：
+    System.out.print(Class.forName("java.lang.String").newInstance().getClass().getName());
+    这个需要无参构造函数
+    当查询的时候返回的实体类是一个对象实例，是hibernate动态通过反射生成的
+    需要对应的类提供一个无参构造函数
