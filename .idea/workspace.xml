@@ -6,140 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fe4cc15-4212-481d-a4d1-8ada3770bfb9" name="Default" comment="代码重新整理。程序可以正常启动。clear">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-codec-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-httpclient-3.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/action/ReptileAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/ReptileDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/WaitingUrlDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/impl/ReptileDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/dao/impl/WaitingUrlDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/entity/AnalysedUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/entity/BaseUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/entity/WaitingUrl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/service/ReptileService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/service/contentAnalysisService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/service/impl/ReptileServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/gfg/portal/service/impl/contentAnalysisServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config/properties/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/datasource_problem.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/template/js/reptile/analysis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/template/js/reptile/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/template/js/reptile/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/template/pages/reptile/index.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/springProject_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/config/datasource_problem.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/config/dispatch_view_problem.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/datasource_problem.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/antlr-2.7.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/db.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/ehcache_hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/properties/velocity.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/spring/spring-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/spring/spring-datasource.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/spring/spring-dispatch.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/spring/spring-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/config/xml/spitter-security.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/org/gfg/portal/SSOAction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/classes/org/gfg/portal/entity/testAEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/antlr-2.7.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/avalon-logkit-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-digester-1.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/commons-logging-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/hibernate-core-4.2.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/jdom-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/log4j-1.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/maven-ant-tasks-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/oro-2.0.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/servletapi-2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-aop-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-beans-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-context-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-context-support-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-core-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-expression-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-instrument-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-instrument-tomcat-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-jms-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-messaging-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-orm-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-oxm-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-security-cas-4.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-security-taglibs-4.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-test-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-web-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-webmvc-portlet-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/spring-websocket-4.1.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/velocity-1.7-dep.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/velocity-1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/velocity-tools-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/lib/werken-xpath-0.9.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/template/pages/hello/hello.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/template/pages/hello/print.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/template/velocity/hello/index.vm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MySpringProject/template/velocity/index.vm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/datasource_problem.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/config/dispatch_view_problem.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/org/gfg/portal/config/InstantiationTracingBeanPostProcessor.class" afterPath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/org/gfg/portal/config/InstantiationTracingBeanPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/gfg/portal/config/InstantiationTracingBeanPostProcessor.class" afterPath="$PROJECT_DIR$/target/classes/org/gfg/portal/config/InstantiationTracingBeanPostProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springProject_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springProject_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="6fe4cc15-4212-481d-a4d1-8ada3770bfb9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-aop-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-aspects-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-beans-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-context-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-context-support-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-core-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-expression-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-instrument-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-instrument-tomcat-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-jdbc-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-jms-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-messaging-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-orm-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-oxm-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-test-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-tx-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-web-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-webmvc-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-webmvc-portlet-4.1.6.RELEASE-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/source/spring-websocket-4.1.6.RELEASE-sources.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/config/spring/spring-dispatch.xml" afterPath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/classes/config/spring/spring-dispatch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springProject_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springProject.iml" afterPath="$PROJECT_DIR$/springProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/spring-dispatch.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/spring-dispatch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/MySpringProject/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/MySpringProject/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring/spring-dispatch.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-dispatch.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/config/dispatch_view_problem.txt" afterPath="$PROJECT_DIR$/src/main/resources/dispatch_view_problem.txt" />
     </list>
     <ignored path="springProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,13 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RetrivePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RetrivePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/action/RetrivePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9746835">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="92" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logTest.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/com/springapp/mvc/logTest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -472,36 +372,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -684,7 +554,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30804598" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
@@ -1376,12 +1246,19 @@
       <workItem from="1448195559476" duration="964000" />
       <workItem from="1448196615992" duration="4303000" />
       <workItem from="1448279610636" duration="4530000" />
-      <workItem from="1448368852494" duration="3279000" />
+      <workItem from="1448368852494" duration="3732000" />
     </task>
+    <task id="LOCAL-00001" summary="代码重新整理。程序可以正常启动。clear">
+      <created>1448372824031</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448372824031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162741000" />
+    <option name="totallyTimeSpent" value="163194000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1436,6 +1313,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码重新整理。程序可以正常启动。clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码重新整理。程序可以正常启动。clear" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -1457,21 +1338,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5314685">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0611702">
-          <caret line="21" column="79" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/template/js/reptile/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6597222">
@@ -1573,6 +1439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="56" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1587,6 +1454,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45174825">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1594,6 +1464,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5314685">
           <caret line="26" column="52" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#408#409#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1612,6 +1486,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44195804">
           <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,6 +1494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3986014">
           <caret line="16" column="37" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1845,12 +1721,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/config/spring/spring-dispatch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/gfg/portal/action/RetrivePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9746835">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="92" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/springapp/mvc/logTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
