@@ -11,7 +11,7 @@
 
        <context:component-scan base-package="org.gfg.portal.*"/>
 
-       <context:property-placeholder location="config/**/*.properties"/>
+       <context:property-placeholder location="classpath:config/**/*.properties"/>
 
        <!-- 对模型视图名称的解析，即在模型视图名称添加前后缀 -->
        <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

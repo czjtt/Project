@@ -39,6 +39,8 @@
 <a id="print2"></a>
 <br/>
 <a id="print3"></a>
+<br/>
+<a href="/reptile/index.htm">reptile</a>
 
 </body>
 <%--<h3>Login with username and password</h3>--%>
